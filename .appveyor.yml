@@ -8,8 +8,8 @@ branches:
 
 build: off
 
-install: off
+install:
+  - chmod +x gradlew
 
 build_script:
-  - chmod +x gradlew
   - ./gradlew test --info
